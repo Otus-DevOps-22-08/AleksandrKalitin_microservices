@@ -1,0 +1,4 @@
+REPOSITORY                 TAG           IMAGE ID       CREATED         SIZE
+yourname/ubuntu-tmp-file   latest        028592982b18   3 minutes ago   63.1MB
+
+docker inspect выдает информацию о состоянии контейнера, также конфиги хоста и сети
