@@ -1,5 +1,6 @@
 FROM ruby:2.2
 RUN apt-get update -qq && apt-get install --force-yes -y build-essential
+
 ENV APP_HOME /app
 RUN mkdir $APP_HOME
 WORKDIR $APP_HOME
